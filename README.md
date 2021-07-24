@@ -1,2 +1,2 @@
-# Practice
-This is a Practice Repository
+# Practise
+This is a Practise Repository
