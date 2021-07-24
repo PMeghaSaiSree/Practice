@@ -186,7 +186,17 @@ print(r.status_code)
 print(r.json())
 
 
-# In[ ]:
+# In[13]:
+
+
+#RM__yjLsY8PvLszRNsRU
+
+import requests
+r = requests.get('https://www.quandl.com/tools/python/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=RM__yjLsY8PvLszRNsRU')
+print(r.status_code)
+print(r.headers)
+#print(r.text)
+print(r.content)
 
 
 
